@@ -34,6 +34,7 @@ Table of Contents
   - [`ezgitpull`](#ezgitpull-1)
   - [`ezrmdir`](#ezrmdir)
   - [`ezreadmeinit`](#ezreadmeinit-1)
+- [Download File Sorter Usage](#download-file-sorter-usage)
 
 ## About The Project
 
@@ -188,26 +189,26 @@ ezreadmeinit
 
 1. **Create `settings.json` file in the `download-file-sorter` directory**
 
-    ```sh
-    cd download-file-sorter
-    touch settings.json
-    ```
+   ```sh
+   cd download-file-sorter
+   touch settings.json
+   ```
 
 2. **Modify `settings.json`**
 
-    ```json
-    {
-      "downloads": "/path/to/Downloads",
-      "destinations": {
-        ".file-extension": "/path/to/destination",
-        ".file-extension": "/path/to/destination",
-        ".file-extension": "/path/to/destination"
-      }
-    }
-    ```
+   ```json
+   {
+     "downloads": "/path/to/Downloads",
+     "destinations": {
+       ".file-extension": "/path/to/destination",
+       ".file-extension": "/path/to/destination",
+       ".file-extension": "/path/to/destination"
+     }
+   }
+   ```
 
 3. **Run `app.py`**
 
-    ```sh
-    python3 app.py
-    ```
+   ```sh
+   python3 app.py
+   ```
