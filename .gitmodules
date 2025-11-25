@@ -1,0 +1,9 @@
+[submodule "linux-scripts"]
+	path = linux-scripts
+	url = git@github.com:venoblin/linux-scripts.git
+[submodule "win-scripts"]
+	path = win-scripts
+	url = git@github.com:venoblin/win-scripts.git
+[submodule "download-file-sorter"]
+	path = download-file-sorter
+	url = git@github.com:venoblin/download-file-sorter.git
