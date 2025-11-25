@@ -186,7 +186,7 @@ ezreadmeinit
 
 ## Download File Sorter Usage
 
-1. **Create `settings.json` file in the project root directory**
+1. **Create `settings.json` file in the `download-file-sorter` directory**
 
     ```sh
     cd download-file-sorter
