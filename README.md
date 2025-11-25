@@ -38,7 +38,7 @@ Table of Contents
 
 ## About The Project
 
-This project provides a collection of utility scripts designed to streamline common tasks in a Linux and Windows eviroments. These scripts automate tasks such as system updates, file management, and Git interactions, improving workflow efficiency and reducing manual effort.
+This project provides a collection of utility scripts designed to streamline common tasks in Linux and Windows enviroments. These scripts automate tasks such as system updates, file management, and Git interactions, improving workflow efficiency and reducing manual effort.
 
 ### Built With
 
