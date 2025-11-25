@@ -183,3 +183,31 @@ ezrmdir -p "directory"
 ```sh
 ezreadmeinit
 ```
+
+## Download File Sorter Usage
+
+1. **Create `settings.json` file in the project root directory**
+
+    ```sh
+    cd download-file-sorter
+    touch settings.json
+    ```
+
+2. **Modify `settings.json`**
+
+    ```json
+    {
+      "downloads": "/path/to/Downloads",
+      "destinations": {
+        ".file-extension": "/path/to/destination",
+        ".file-extension": "/path/to/destination",
+        ".file-extension": "/path/to/destination"
+      }
+    }
+    ```
+
+3. **Run `app.py`**
+
+    ```sh
+    python3 app.py
+    ```
