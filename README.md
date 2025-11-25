@@ -18,7 +18,7 @@ Table of Contents
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
-- [Usage](#usage)
+- [Linux Scripts Usage](#linux-scripts-usage)
   - [`ezcode`](#ezcode)
   - [`ezcppinit`](#ezcppinit)
   - [`ezdownloadsorter`](#ezdownloadsorter)
@@ -31,6 +31,11 @@ Table of Contents
   - [`ezgitsetup`](#ezgitsetup)
   - [`ezzshsetup`](#ezzshsetup)
   - [`ezshc`](#ezshc)
+- [Windows Scripts Usage](#windows-scripts-usage)
+  - [`ezgitpush`](#ezgitpush-1)
+  - [`ezgitpull`](#ezgitpull-1)
+  - [`ezrmdir`](#ezrmdir)
+  - [`ezreadmeinit`](#ezreadmeinit-1)
 
 ## About The Project
 
@@ -82,6 +87,7 @@ Current scripts are used in a Linux enviroment using `zypper`, `dnf`, or `apt` p
    ```
 
 ## Linux Scripts Usage
+
 ### `ezcode`
 
 - Opens VSCode with disabled gpu
@@ -184,26 +190,35 @@ ezshc
 ```
 
 ## Windows Scripts Usage
-### `ezgitpush` 
+
+### `ezgitpush`
+
 - Pushes to current Git branch
+
 ```sh
 ezgitpush -m "commit message"
 ```
 
-### `ezgitpull` 
+### `ezgitpull`
+
 - Pulls from current Git branch
+
 ```sh
 ezgitpull
 ```
 
-### `ezrmdir` 
+### `ezrmdir`
+
 - Removes directory and any items in it
+
 ```sh
 ezrmdir -p "directory"
 ```
 
-### `ezreadmeinit` 
+### `ezreadmeinit`
+
 - Initializes README template files inside current working directory
+
 ```sh
 ezreadmeinit
 ```
