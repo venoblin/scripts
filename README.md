@@ -16,8 +16,6 @@ Table of Contents
 
 - [About The Project](#about-the-project)
   - [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
 - [Linux Scripts Usage](#linux-scripts-usage)
   - [`ezcode`](#ezcode)
   - [`ezcppinit`](#ezcppinit)
@@ -48,43 +46,6 @@ This project was built with the following technologies:
 - <img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff" alt="Bash" />
 - <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff" alt="Python" />
 - <img src="https://img.shields.io/badge/PowerShell-003B57?style=flat&logo=gnome-terminal&logoColor=white" alt="PowerShell" />
-
-## Getting Started
-
-Current scripts are used in a Linux enviroment using `zypper`, `dnf`, or `apt` package managers. Modification might be necessary for them to work in other systems.
-
-### Installation
-
-1. **Clone the repository**
-
-   ```sh
-   git clone --recurse-submodules https://github.com/venoblin/linux-scripts
-   ```
-
-2. **Create `settings.json` file in project root directory (for [ezdownloadsorter](https://github.com/venoblin/download-file-sorter))**
-
-   ```sh
-   cd scripts
-   touch settings.json
-   ```
-
-3. **Modify `settings.json`**
-
-   ```json
-   {
-     "downloads": "/path/to/Downloads",
-     "destinations": {
-       ".file-extension": "/path/to/destination",
-       ".file-extension": "/path/to/destination",
-       ".file-extension": "/path/to/destination"
-     }
-   }
-   ```
-
-4. **Install scripts**
-   ```sh
-   ./install.sh
-   ```
 
 ## Linux Scripts Usage
 
